@@ -24,7 +24,7 @@ This game has around the same gameplay value as tic-tac-toe or rock-paper-scisso
 
 Really, the AI picks moves randomly. It just changes its probabilites of picking each move as it learns how to play the game. It is learning by reducing the chance it picks a poor move and increasing the chance it picks a good move. Sound underwhelming? Likely because it is. Clearly, this is a very high-level explanation, so take it with a grain of salt.
 
-If you want to see this in practice, you should not only try out the Python Program in this repository, but also check out [this video](https://www.youtube.com/watch?v=sw7UAZNgGg8) by Vsause2, where he does exactly the same thing, but with matchboxes. Although, he does play a variant of Hexapawn that he dubs "Shreksapawn", but it plays exactly the same. It'll make sense when you watch the video. Oddly enough, this is what inspired me to create this program!
+If you want to see this in practice, you should not only try out the Python Program in this repository, but also check out [this video](https://www.youtube.com/watch?v=sw7UAZNgGg8) by Vsauce2, where he does exactly the same thing, but with matchboxes. Although, he does play a variant of Hexapawn that he dubs "Shreksapawn", but it plays exactly the same. It'll make sense when you watch the video. Oddly enough, this is what inspired me to create this program!
 
 ## How do I use the program?
 
@@ -35,3 +35,9 @@ Start by clicking the green "Code" button and select "Download ZIP". Once downlo
 Try clicking on squares containing white pieces and then selecting where you want to move. You can click the same space again to de-select that piece. When a game ends, click 'RESET' to play another game. If you want the AI to stop learning from games, click "Learn ON". It should change to "Learn OFF". Click again to re-enable learning.
 
 You should not be required to modify anything in the code to get this to work.
+
+## Is there anything else I can do?
+
+Yes! There are plenty of other tools available in this application, as well as room for creating your own code to get the app to do what you want. Below is a set of contents of guides:
+
+- [Save and Load AI](guides/saving-and-loading.md)
