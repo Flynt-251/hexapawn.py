@@ -41,3 +41,4 @@ You should not be required to modify anything in the code to get this to work.
 Yes! There are plenty of other tools available in this application, as well as room for creating your own code to get the app to do what you want. Below is a set of contents of guides:
 
 - [Save and Load AI](guides/saving-and-loading.md)
+- [Training and Testing](guides/automate-games.md)
