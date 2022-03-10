@@ -42,3 +42,5 @@ Yes! There are plenty of other tools available in this application, as well as r
 
 - [Save and Load AI](guides/saving-and-loading.md)
 - [Training and Testing](guides/automate-games.md)
+- [Advanced Options](guides/advanced-menu.md)
+- [Development Guide](guides/custom-code.md)

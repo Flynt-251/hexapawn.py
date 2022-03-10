@@ -1120,8 +1120,10 @@ def initialiseUI():
     def changeInterface() -> None:
         root.withdraw()
         print("To return to the GUI, press Ctrl+C and re-run the program.")
-        boardData.reset()
-        gameCycle(boardData, ai, learningBool.get())
+        learn = learningBool.get()
+        while True:
+            boardData.reset()
+            gameCycle(boardData, ai, learn)
 
     def openCustomiseMenu() -> None:
         branch = Tk()
