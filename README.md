@@ -1,6 +1,6 @@
 # hexapawn.py
 
-> **Before using this repository, please bear in mind that any code/files used may be used as evidence for a Non-Exam Assessment under my taking of OCR's A-Level Computer Science Course. As such, *using this code for an NEA of your own is strictly prohibited.* This means you may not use it (or any variants) for your own work. You may still use this code for personal use.**
+> **Up here, I put a disclaimer saying that any code used here must not be used in an NEA if you take A-Level Computer Science. I am not using this project as my NEA, so no need to worry. Nonetheless, it's not a good idea to copy-paste code straight off of Github for your NEA; remember moderators know what Github is too!**
 
 The code in this Repository is aimed to help people learn the basics of machine learning, by using an obscure chess variant known as "Hexapawn". This game was invented solely to demonstrate machine learning and takes inspiration from the MENACE computer which was capable of playing (and learning to improve at) tic-tac-toe
 
