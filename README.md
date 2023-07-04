@@ -1,8 +1,6 @@
 # hexapawn.py
 
-> **Up here, I put a disclaimer saying that any code used here must not be used in an NEA if you take A-Level Computer Science. I am not using this project as my NEA, so no need to worry. Nonetheless, it's not a good idea to copy-paste code straight off of Github for your NEA; remember moderators know what Github is too!**
-
-The code in this Repository is aimed to help people learn the basics of machine learning, by using an obscure chess variant known as "Hexapawn". This game was invented solely to demonstrate machine learning and takes inspiration from the MENACE computer which was capable of playing (and learning to improve at) tic-tac-toe
+This is an old project of mine, where I took inspiration from Vsauce2's "Shreksapawn" video, where I created a hexapawn game, complete with reward-punishment based learning, file handling, benchmarking and a GUI. The video can be found [here](https://www.youtube.com/watch?v=sw7UAZNgGg8) if you're interested.
 
 ## What is Hexapawn?
 
@@ -18,17 +16,13 @@ Your pawn can move as it typically would in Chess, *except no pawn can move two 
 - Getting one of your own pieces to the opposite side of the board or;
 - Forcing your opponent into a state where they cannot move, by blocking their pieces.
 
-This game has around the same gameplay value as tic-tac-toe or rock-paper-scissors, so don't throw out your PS5s and Xboxs just yet...
-
 ## How does the AI learn?
 
-Really, the AI picks moves randomly. It just changes its probabilites of picking each move as it learns how to play the game. It is learning by reducing the chance it picks a poor move and increasing the chance it picks a good move. Sound underwhelming? Likely because it is. Clearly, this is a very high-level explanation, so take it with a grain of salt.
-
-If you want to see this in practice, you should not only try out the Python Program in this repository, but also check out [this video](https://www.youtube.com/watch?v=sw7UAZNgGg8) by Vsauce2, where he does exactly the same thing, but with matchboxes. Although, he does play a variant of Hexapawn that he dubs "Shreksapawn", but it plays exactly the same. It'll make sense when you watch the video. Oddly enough, this is what inspired me to create this program!
+In basic terms, the AI picks moves randomly. It changes its probabilites of picking each move as it learns how to play the game. It is learning by reducing the chance it picks a poor move and increasing the chance it picks a good move. This is a high-level explanation.
 
 ## How do I use the program?
 
-Start by clicking the green "Code" button and select "Download ZIP". Once downloaded, extract the file contents and execute the [hexapawn.py](hexapawn.py) file (Make sure you have python installed for obvious reasons!). You should be greeted to this interface:
+Once you've cloned the repository and ran the app.py file, you should be greeted to this interface:
 
 ![UI for Windows](assets/readme-images/user-interface.png)
 
@@ -38,9 +32,8 @@ You should not be required to modify anything in the code to get this to work.
 
 ## Is there anything else I can do?
 
-Yes! There are plenty of other tools available in this application, as well as room for creating your own code to get the app to do what you want. Below is a set of contents of guides:
+There are plenty of other tools available in this application. Below is a set of contents of guides for each of the drop-down menus on the GUI:
 
 - [Save and Load AI](guides/saving-and-loading.md)
 - [Training and Testing](guides/automate-games.md)
 - [Advanced Options](guides/advanced-menu.md)
-- [Development Guide](guides/custom-code.md)
